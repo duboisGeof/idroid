@@ -1,0 +1,190 @@
+body{
+}
+
+.result{
+    color: white;
+}
+
+.info,.info h1, .info p{
+ 
+}
+
+.info p{
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.info h1{
+    margin-bottom: 90px;
+}
+
+h1{
+    margin-top: 85px;
+    text-align: center;
+    width: 100%;
+}
+
+.result{
+    color: red;
+}
+
+.error{
+    color : red;
+    font-weight: bold;
+}
+
+
+.no_click{
+    float: left;
+    color: #9d9d9d;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 15px 15px;
+}
+
+.hidden-div {
+    display:none
+}
+
+.center-block, form, .form {
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-block-large, form, .form {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form, .form{
+    border: 1px solid;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+ul .form-group{
+    float: left;
+    padding-top: 9px;
+}
+
+.btn{
+    width: 115px;
+}
+
+
+.btn-danger, .btn-primary{
+    float: right;
+}
+
+
+p{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 63vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.error, .error_captcha{
+    color: red;
+    text-align: left;
+    font-size: 12px;
+}
+
+.form-control{
+    padding-left: 25px!important;
+}
+
+.form-group, .btn{
+    margin-left: 25px!important;
+    margin-right: 25px!important;
+    margin-bottom: 10px;
+}
+
+.g-recaptcha{
+    margin-left: 25px;
+}
+
+.alert{
+    position: fixed;
+    margin-top: 50px;
+    text-align: center;
+    left: 25%;
+    width: 50%;
+}
+
+.container_list h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+img.robot{
+    position: absolute;
+    width: 300px;
+    margin-top: -126px;
+    margin-left: -340px;
+}
+
+.container_list{
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.table{
+    background-color: #f7f7f7;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd){
+     background-color: #F7F7D3;
+}
+
+thead{
+    background-color: #e9e7e7;
+}
+
+th, td{
+    text-align: center;
+}
+
+tr.blank{
+    background-color: #555555;
+}
+
+tr.blank:last-child{
+   display: none;
+}
+
+.forgot{
+    margin-left: 25px!important;
+    margin-top: 5px;
+}
+
+.text_cookies{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    font-size: 10px;
+    margin: 0;
+}
