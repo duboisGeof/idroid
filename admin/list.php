@@ -49,7 +49,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/idroid/partials/navbar_admin.php");
     
     
 
-    <table class="table table-bordered table-striped"  id="table_list_user">
+    <table class="table table-bordered table-striped "  id="table_list_user">
         <thead>
             <th>Id</th>
             <th>Login</th>

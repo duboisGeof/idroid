@@ -34,8 +34,8 @@ include "partials/navbar_user.php"
 
 
 
-    <div class="container center-block vertical-center">
-        <form action="" method="POST">
+    <div class="container-fluid vertical-center ">
+        <form action="" method="POST" class="col-xs-11 col-sm-6 col-lg-3">
 
                 <?php
 
@@ -47,6 +47,8 @@ include "partials/navbar_user.php"
                 if($nodes->questions == ""){
                     $_SESSION['result'] = $current_result;
                     header('Location:' . WEBROOT . 'result.php?token='.$_SESSION['token']);
+					echo '<META HTTP-EQUIV="Refresh" Content="0; URL=result.php?token=' . $_SESSION['token'] . '">'; 
+               		die();
                 }
                 ?>
                 <input type="hidden" name="left" value="<?php echo $current_id_left; ?>">

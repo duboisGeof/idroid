@@ -32,7 +32,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/idroid/partials/header.php");
 include($_SERVER["DOCUMENT_ROOT"] . "/idroid/partials/navbar_admin.php");
 ?>
 
-<div class="container_list ">
+<div class="col-xs-12 col-sm-12 col-lg-12 ">
     <h1>Liste des nouveaux Utilisateurs</h1>
 
     <table class="table table-bordered table-striped"  id="table_new_user">

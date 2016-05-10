@@ -44,8 +44,8 @@ include($_SERVER["DOCUMENT_ROOT"] . "/idroid/partials/navbar_admin.php");
 
 
 
-    <div class="container center-block vertical-center">
-        <form action="#" method="post">
+    <div class="container-fluid vertical-center ">
+        <form action="#" method="post"  class="col-xs-11 col-sm-6 col-lg-3">
             <div class="form-group ">
                 <label for="login">Login</label>
                 <input type="text" class="form-control" name="login" value="<?php echo $_SESSION['user_login']; ?>">

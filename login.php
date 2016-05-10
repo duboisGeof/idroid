@@ -44,9 +44,9 @@ include "partials/header.php";
 include "partials/navbar_user.php"
 ?>
 
-
-<div class="container center-block vertical-center">
-        <form action="#" method="post">
+<div class="row">
+<div class="container-fluid vertical-center ">
+        <form action="#" method="post" class="col-xs-11 col-sm-6 col-lg-3">
                 <div class="form-group ">
                     <label for="login">Login</label>
                      <input type="text" class="form-control" id="login" name="login">
@@ -59,10 +59,12 @@ include "partials/navbar_user.php"
                 </div>
                 <button type="submit" class="btn btn-success">Se Connecter</button>
                 <a href="form_inscription.php" class="btn btn-primary">Inscription</a>
+				<div class="clear"></div>
                 <a href="email_forgot_old.php" class="forgot">Mot de passe oublié ?</a>
-                <input type="checkbox" class="" id="remember_checkox" name="rememberme"><label for="remember_checkox">Se souvenir de moi</label>
+                <input type="checkbox" class="rememberme" id="remember_checkox" name="rememberme"><label for="remember_checkox">Se souvenir de moi</label>
 
         </form>
+</div>
 </div>
 
 

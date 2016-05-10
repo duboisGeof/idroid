@@ -91,9 +91,9 @@ if(isset($_POST['submit'])&& isset($_SESSION['token'])){
 }
 include "partials/navbar_user.php"
 ?>
-<div class="container center-block vertical-center">
+<div class="container-fluid vertical-center ">
 
-    <form method="post" class="form_result">
+    <form method="post" class="form_result col-xs-11 col-sm-6 col-lg-3">
 
                 <div class="form-group">
                     <label for="new_question">Inserer une nouvelle question</label>
@@ -107,7 +107,7 @@ include "partials/navbar_user.php"
                     <p class="error_result error">Merci d'enregistrer une nouvelle r�ponse</p>
                 </div>
 
-                <div class="g-recaptcha " data-sitekey="6LdpURMTAAAAANk-wOMIv0niGaZoNwXago2Qspfw"></div>
+                <div class="g-recaptcha " data-sitekey="6LduvBQTAAAAAE8cnW43vEgVpV7hEnOIyfz0HCdB" ></div>
                 <p class="error_captcha error">Merci d'enregistrer une cocher le captcha</p>
 
                 <button type="reset" name='submit' value="Submit" class="btn btn-danger">Annuler</button>

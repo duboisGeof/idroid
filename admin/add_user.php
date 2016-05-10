@@ -45,9 +45,10 @@ include($_SERVER["DOCUMENT_ROOT"] . "/idroid/partials/header.php");
 include($_SERVER["DOCUMENT_ROOT"] . "/idroid/partials/navbar_admin.php");
 ?>
 <h1>Ajouter un utilisateur</h1>
-    <div class="container center-block vertical-center">
+<div class="row">
+    <div class="container-fluid vertical-center ">
         <div class="row">
-            <form action="#" method="post" class="form_user">
+            <form action="#" method="post" class="col-xs-offset-3 col-xs-12 col-sm-6 col-lg-3">
                 <div class="form-group ">
                     <label for="login">Login</label>
                     <input type="text" class="form-control reset" id="login" name="login" autocomplete="off" placeholder="Nom d'utilisateur">
@@ -77,6 +78,7 @@ include($_SERVER["DOCUMENT_ROOT"] . "/idroid/partials/navbar_admin.php");
             </form>
         </div>
     </div>
+	</div>
 
 
 <?php

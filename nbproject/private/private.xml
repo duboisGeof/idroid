@@ -3,10 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp/www/idroid/js/animate.js</file>
-            <file>file:/C:/wamp/www/idroid/partials/footer.php</file>
-            <file>file:/C:/wamp/www/idroid/game.php</file>
+            <file>file:/C:/wamp/www/idroid/info.php</file>
+            <file>file:/C:/wamp/www/idroid/partials/navbar_user.php</file>
+            <file>file:/C:/wamp/www/idroid/admin/list.php</file>
+            <file>file:/C:/wamp/www/idroid/lib/includes.php</file>
             <file>file:/C:/wamp/www/idroid/partials/header.php</file>
+            <file>file:/C:/wamp/www/idroid/lib/db_online.php</file>
+            <file>file:/C:/wamp/www/idroid/css/styles.css</file>
+            <file>file:/C:/wamp/www/idroid/lib/db.php</file>
             <file>file:/C:/wamp/www/idroid/login.php</file>
         </group>
     </open-files>

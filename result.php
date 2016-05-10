@@ -8,9 +8,9 @@ include "partials/navbar_user.php";
 
 
 ?>
-<div class="container center-block vertical-center">
-    <div class="form">
-<?php echo "<p> Vous pensez à ".$_SESSION['result']. "</p><br>"; ?>
+<div class="container-fluid vertical-center ">
+    <div class="form col-xs-11 col-sm-6 col-lg-3">
+<?php echo "<p> Vous pensez à ".$_SESSION['result']. " ?</p><br>"; ?>
 
             <div class="hidden-div" id="hidden-div_oui">
                 gagner, <a href="game.php?token=<?php echo $_SESSION['token']?>">On recommence ?</a>

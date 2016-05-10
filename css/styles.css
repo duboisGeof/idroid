@@ -9,6 +9,11 @@ body{
  
 }
 
+.clear{
+	float: none;
+	clear: both;
+}
+
 .info p{
     text-align: justify;
     margin-top: 20px;
@@ -50,13 +55,11 @@ h1{
 }
 
 .center-block, form, .form {
-    width: 380px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .center-block-large, form, .form {
-    width: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -187,4 +190,53 @@ tr.blank:last-child{
     left: 0;
     font-size: 10px;
     margin: 0;
+}
+
+.rememberme{
+	margin-left: 25px !important;
+}
+
+@media screen and (max-width: 768px){
+	
+	.form-group, .btn{
+		margin: 0px !important;
+		margin-bottom: 10px !important;
+	}
+	
+	.forgot{
+		display: block;
+	}
+	
+	.rememberme{
+		margin-left: 0px !important;
+	}
+	
+	.forgot{
+		margin-left: 0px!important;
+	}
+	
+	.col-xs-11{
+		margin-top:70px;
+	}
+	
+	.g-recaptcha{
+		transform:scale(0.90);
+		-webkit-transform:scale(0.90);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+		margin-left: 0px;
+	}
+	
+	h1{
+		font-size: 18px;
+	}
+	
+	.container_list{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.table{
+		width: 90%;
+	}
 }
